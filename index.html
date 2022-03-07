@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
   <head>
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1,
-  maximum-scale=5"
+      maximum-scale=5"
     />
 
     <link rel="icon" href="devchallenges.png" />
@@ -21,75 +21,55 @@
       rel="stylesheet"
     />
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
     <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
+    <div class="container">
+      <header class="header">
+        <div class="banner">
+          <h1>this interior</h1>
+        </div>
+        <nav class="nav">
+          <ul class="nav-ul">
+            <li class="nav-li"><a href="#">home</a></li>
+            <li class="nav-li"><a href="#">collection</a></li>
+            <li class="nav-li"><a href="#">about</a></li>
+            <li class="nav-li"><a href="#">contact</a></li>
+          </ul>
+          <button class="nav-btn" aria-disabled="true"><span class="material-icons md-light">menu</span></button>
+        </nav>
+      </header>
+      <main class="main">
+        <section>
+          <article>
+            <h1>Modern interior</h1>
+            <p>A full Service residential & commercial interior design and staging company offering professional organizing & eco-services.</p>
+            <p>
+               Read more 
+               <span class="material-icons">
+                 arrow_right_alt
+               </span>
+             </p>
+          </article>
+        </section>
+        <section>
+          <figure class="figure">
+            <img src="./photo1.png" alt="interior-design">
+          </figure>
+          <figure class="card">
+            <img src="./photo2.png" alt="photo">
+          </figure>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer-p">
+          created by <a href="https://devchallenges.io/portfolio/DoIfeanyichukwu">@DoIfeanyichukwu</a>@ - <a href="https://devChallenges.io">devChallenges.io</a>
         </p>
-      </div>
-
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
+      </footer>
     </div>
   </body>
 </html>
