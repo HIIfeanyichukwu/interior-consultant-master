@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="rtl">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta
@@ -40,34 +40,50 @@
             <li class="nav-li"><a href="#">about</a></li>
             <li class="nav-li"><a href="#">contact</a></li>
           </ul>
-          <button class="nav-btn" aria-disabled="true"><span class="material-icons md-light">menu</span></button>
+          <button class="nav-btn" aria-hidden="true"><span class="material-icons md-light">menu</span></button>
         </nav>
       </header>
       <main class="main">
         <section>
-          <article>
+          <article class="article">
             <h1>Modern interior</h1>
-            <p>A full Service residential & commercial interior design and staging company offering professional organizing & eco-services.</p>
-            <p>
-               Read more 
-               <span class="material-icons">
-                 arrow_right_alt
-               </span>
-             </p>
+            <p class="p1">
+              A full Service residential & commercial interior design and staging company offering professional organizing & eco-services.
+            </p>
+            <p class="p2">
+              Read more 
+              <span class="material-icons arrow-right">
+                arrow_right_alt
+              </span>
+            </p>
           </article>
         </section>
-        <section>
+        <section class="card-section">
           <figure class="figure">
-            <img src="./photo1.png" alt="interior-design">
+            <img width="300px" height="600px" src="./photo1.png" alt="interior-design">
           </figure>
-          <figure class="card">
-            <img src="./photo2.png" alt="photo">
-          </figure>
+          <div class="card">
+            <div class="card-info">
+              <div class="card-img-container">
+                <img src="./photo2.png" alt="photo">
+              </div>
+              <div class="info">
+                <p class="info-name">
+                  Aliza Webber
+                </p>
+                <p class="info-title">
+                  Interior designer
+                </p>
+              </div>
+            </div>
+            <h2 class="card-title">Designed in 2020 by</h2>
+            <h2 class="card-title">Aliza Webber</h2>
+          </div>
         </section>
       </main>
       <footer class="footer">
         <p class="footer-p">
-          created by <a href="https://devchallenges.io/portfolio/DoIfeanyichukwu">@DoIfeanyichukwu</a>@ - <a href="https://devChallenges.io">devChallenges.io</a>
+          created by <a href="https://devchallenges.io/portfolio/DoIfeanyichukwu">@DoIfeanyichukwu</a> - <a href="https://devChallenges.io">devChallenges.io</a>
         </p>
       </footer>
     </div>
