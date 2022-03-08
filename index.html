@@ -21,71 +21,88 @@
       rel="stylesheet"
     />
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-
     <title>Devchallenges</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container">
+    <main class="container">
       <header class="header">
         <div class="banner">
-          <h1>this interior</h1>
+          <h2 class="uppercase">this interior</h2>
         </div>
         <nav class="nav">
-          <ul class="nav-ul">
-            <li class="nav-li"><a href="#">home</a></li>
-            <li class="nav-li"><a href="#">collection</a></li>
-            <li class="nav-li"><a href="#">about</a></li>
-            <li class="nav-li"><a href="#">contact</a></li>
-          </ul>
-          <button class="nav-btn" aria-hidden="true"><span class="material-icons md-light">menu</span></button>
+          <button class="close">
+            close
+          </button>
+          <div class="nav-container">
+            <ul class="nav-ul">
+              <li class="nav-items">
+                <a href="#">
+                  <span class="selected">
+                    Home
+                  </span>
+                </a>
+              </li>
+              <li class="nav-items">
+                <a href="#">
+                  <span >
+                    Collection
+                  </span>
+                </a>
+              </li>
+              <li class="nav-items">
+                <a href="#">
+                  <span>
+                    About
+                  </span>
+                </a>
+              </li>
+              <li class="nav-items">
+                <a href="#">
+                  <span>
+                    Contact
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </nav>
+        <button class="menu">
+          menu
+        </button>
       </header>
       <main class="main">
-        <section>
-          <article class="article">
-            <h1>Modern interior</h1>
-            <p class="p1">
-              A full Service residential & commercial interior design and staging company offering professional organizing & eco-services.
-            </p>
-            <p class="p2">
-              Read more 
-              <span class="material-icons arrow-right">
-                arrow_right_alt
-              </span>
-            </p>
-          </article>
+        <section class="main-section-text-content">
+          <h1>Modern interior</h1>
+          <p>
+            A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.
+          </p>
+          <p class="read-more">
+            Read more 
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M16.01 11H5c-.55 0-1 .45-1 1s.45 1 1 1h11.01v1.79c0 .45.54.67.85.35l2.78-2.79c.19-.2.19-.51 0-.71l-2.78-2.79c-.31-.32-.85-.09-.85.35V11z"/></svg>
+          </p>
         </section>
-        <section class="card-section">
-          <figure class="figure">
-            <img width="300px" height="600px" src="./photo1.png" alt="interior-design">
+        <section class="main-section-design-content">
+          <figure class="main-image">
+            <img src="./photo1.png" alt="">
           </figure>
-          <div class="card">
-            <div class="card-info">
-              <div class="card-img-container">
-                <img src="./photo2.png" alt="photo">
-              </div>
-              <div class="info">
-                <p class="info-name">
-                  Aliza Webber
-                </p>
-                <p class="info-title">
-                  Interior designer
-                </p>
+          <div class="main-card">
+            <div class="main-card-id">
+              <img class="main-card-id-image" src="./photo2.png" alt="">
+              <div class="badge">
+                <p class="capitalize">aliza webber</p>
+                <p class="small">Interior designer</p>
               </div>
             </div>
-            <h2 class="card-title">Designed in 2020 by</h2>
-            <h2 class="card-title">Aliza Webber</h2>
+            <p>Designed in 2020 by</p>
+            <p class="capitalize">aliza webber</p>
           </div>
         </section>
       </main>
       <footer class="footer">
-        <p class="footer-p">
-          created by <a href="https://devchallenges.io/portfolio/DoIfeanyichukwu">@DoIfeanyichukwu</a> - <a href="https://devChallenges.io">devChallenges.io</a>
-        </p>
+        <p>created by <a href="#">@DoIfeanyichukwu</a> - <a href="#">devChallenges.io</a></p>
       </footer>
-    </div>
+    </main>
+    <!-- <script src="index.js"></script> -->
   </body>
 </html>
