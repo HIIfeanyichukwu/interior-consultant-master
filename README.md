@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">{Interior-consultant-page}</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://DoInterior-consultant.surge.sh">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/DoIfeanyichukwu/interior-consultant-master">
       Solution
     </a>
     <span> | </span>
@@ -36,22 +36,34 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](./web.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+Developing mobile navigations with html and css was quite difficult for me damn.
+I was torn between using buttons for the menu and close icons, and using pseudo class ::before and ::after.
+
+I ended with using buttons over psuedo classes.
+
+There are not enough resources explaining the implementation of mobile menus, whether to use buttons or not.
+
+I hope my solution helps you, But if you find a better solution please share with me. thankyou.
+
 
 - Where can I see your demo?
+  - demo can be found [here](https://DoInterior-consultant.surge.sh)
 - What was your experience?
+  - i faced my confusion and now, i have something that works. i.e the mobile navigation implementation.
 - What have you learned/improved?
+  - my knowledge of span tag usage.
 - Your wisdom? :)
+  - if trying fails, rest, then try again
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- HTML
+- CSS
+- JavaScript.
 
 ## Features
 
@@ -69,6 +81,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [@DoIfeanyichukwu](https://{github.com/DoIfeanyichukw})
+- Twitter [@DoIfeanyichukwu](https://{twitter.com/DoIfeanyichukwu})
