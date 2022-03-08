@@ -67,7 +67,7 @@ html {
 
 /* nav */
 .nav {
-    /* display: none; */
+    display: none;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -77,6 +77,11 @@ html {
     width: 100%;
     z-index: 100;
     padding-top: 19px;
+    transition: linear 0.5s;
+}
+.nav-active {
+    display: block;
+    transition: all linear .5s;
 }
 .nav-container {
     margin: 0 12px;

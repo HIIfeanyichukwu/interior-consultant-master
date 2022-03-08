@@ -1,17 +1,17 @@
 'use strict'
 
-const toggle = document.querySelector('.nav-btn');
+const menu = document.querySelector('.menu');
+const close = document.querySelector('.close');
 const nav = document.querySelector('.nav');
-const ul = document.querySelector('.nav-ul');
 
-const toggleHandler = (event) => {
+const menuHandler = (event) => {
     event.preventDefault()
-    const target = event.target;
-    const span = target.closest('SPAN');
-    span.innerHTML = 'close';
-    target.classList.toggle('close')
-    nav.classList.toggle('nav-active')
-    ul.classList.toggle('nav-ul-active');
+    nav.classList.add('nav-active');
 }
 
-toggle.addEventListener("click", toggleHandler);
+const closeHandler = (event) => {
+    event.preventDefault()
+    nav.classList.remove('nav-active');
+}
+menu.addEventListener("click", menuHandler);
+close.addEventListener("click", closeHandler);
